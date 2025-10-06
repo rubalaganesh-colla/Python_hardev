@@ -1,0 +1,10 @@
+from datetime import date , time , datetime
+today = date.today()
+now = datetime.now()
+current_time = now.strftime("%H:%M:%S")
+print("Today's date:", today)
+print("Current Time:", current_time)
+print("Current Date and Time:", now)
+print("Year:", today.year)
+print("Month:", today.month)
+print("Day:", today.day)
